@@ -1031,7 +1031,7 @@ function mobileSlider() {
 
 	if (window.innerWidth > 1000) {
 		slider.dataset.mobile = 'false';
-		if (slider.classList.contains('swiper-container-initialized')) {
+		if (slider.classList.contains('swiper-initialized')) {
 			mySwiper.destroy();
 		}
 	}
